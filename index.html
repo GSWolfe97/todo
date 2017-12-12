@@ -2,16 +2,16 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <link href="styles.css" rel="stylesheet">
     <title>Hello World!</title>
-    <style>
-        h1 {background-color: red;
-            text-align: center;
-            color: white;
-        }
-    </style>
   </head>
   <body>
     <h1>Task list</h1>
+    <input type="text" id='content'>
+    <button id="btn">Create a file</button>
+    <button id="open">Open a file</button><br>
+    <textarea id='output' rows=3></textarea>
+    <script> require('./renderer.js')</script>
   </body>
 </html>
 
